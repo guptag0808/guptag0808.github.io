@@ -223,8 +223,10 @@ header.sticky {
 
 .about-img img {
 	height: auto;
-	width: 100%;
+	width: 50%;
 	max-width: 460px;
+	margin-left: 130px;
+	border-radius: 48%;
 }
 
 
