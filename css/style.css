@@ -223,9 +223,9 @@ header.sticky {
 
 .about-img img {
 	height: auto;
-	width: 50%;
+	width: 70%;
 	max-width: 460px;
-	margin-left: 130px;
+	/* margin-left: 30px; */
 	border-radius: 48%;
 }
 
