@@ -210,7 +210,7 @@ header.sticky {
 
 .about-gri {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(50px, auto));
 	align-items: center;
 	gap: 1rem;
 	margin-bottom: 3rem;
@@ -287,7 +287,7 @@ header.sticky {
 
 .portfolio-content {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
 	align-items: center;
 	gap: 2rem;
 	margin-top: 5rem;
@@ -296,6 +296,7 @@ header.sticky {
 .stat-section {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(-50px, auto));
+	/* grid-template-columns: repeat(2,1fr); */
 	align-items: center;
 	gap: 2rem;
 	margin-top: 5rem;
