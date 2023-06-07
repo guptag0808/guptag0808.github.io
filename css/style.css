@@ -414,6 +414,31 @@ header.sticky {
 .contact-form form {
 	position: relative;
 }
+@media (min-width: 360px) and (max-width: 430px) {
+	/* CSS rules for screens between 600px and 1024px */
+	.contact-form img{
+		width:350px;
+		/* border:2px solid yellow */
+	  }
+  }
+  @media (min-width: 250px) and (max-width: 360px) {
+	/* CSS rules for screens between 600px and 1024px */
+	.contact-form img{
+		width:300px;
+		/* border:2px solid green */
+	  }
+  }
+  @media (min-width: 100px) and (max-width: 249px) {
+	/* CSS rules for screens between 600px and 1024px */
+	.contact-form img{
+		width:200px;
+		/* border:2px solid green */
+	  }
+  }
+   
+   
+
+
 
 .contact-form form input,
 form textarea {
