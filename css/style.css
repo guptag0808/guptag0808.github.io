@@ -589,6 +589,6 @@ form textarea {
 	}
 
 	.calender-section {
-		display: none;
+		width:102%
 	}
 }
