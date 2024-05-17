@@ -54,7 +54,7 @@ header {
 }
 
 .navbar a {
-	color: var(--second-color);
+	color: white;
 	font-size: var(--p-font);
 	font-weight: 600;
 	padding: 10px 25px;
@@ -146,13 +146,16 @@ span {
 }
 
 .btnResume {
-	color: var(--second-color);
+	
 	font-size: var(--p-font);
 	font-weight: 600;
 	padding: 10px 5px;
 	margin: -12px 2px;
 	border-radius: 0.5rem;
 	transition: all .40s ease;
+}
+.btnResume a{
+	color: black;
 }
 
 .btnResume:hover {
@@ -410,7 +413,10 @@ header.sticky {
 	color: var(--text-color);
 	background: var(--main-color);
 }
-
+.calender-section{
+	color: #fff;
+	
+}
 .contact-form form {
 	position: relative;
 }
@@ -473,6 +479,7 @@ form textarea {
 .stats {
 	align-content: center;
 	margin-bottom: 50px;
+
 }
 
 .last-text p {
